@@ -1,11 +1,3 @@
-const links = document.querySelectorAll('.header-nav__link');
-
-links.forEach(link => {
-    link.addEventListener('click', event => {
-        document.querySelector('.header-nav__link.link-active').classList.remove('link-active');
-        event.currentTarget.classList.add('link-active');
-    })
-})
 /*dropdown*/
 const dropDownButton = document.querySelector('.dropdown-button');
 const dropDownMenu = document.querySelector('.dropdown-menu');
@@ -20,21 +12,7 @@ document.addEventListener('click', (event) => {
     }
 })
 
-
-/* модалка become a host */
-const modal = document.querySelector('#modal'); // получение доступа к модалке
-const host = document.querySelector('#host'); // доступ к Become a host
-const closeModal = document.querySelector('#close-button'); // доступ к кнопке Close Modal внутри модалки
-
-host.addEventListener("click", () => {
-    modal.showModal();
-});
-
-
-closeModal.addEventListener("click", () => {
-    modal.close();
-});
-/*модалка languages*/
+/*модалка languages
 const modal2 = document.querySelector('#languages'); // получение доступа к модалке
 const languages_btn = document.querySelector('#languages_btn'); // доступ к Become a host
 const closeModal1 = document.querySelector('#close-button1'); // доступ к кнопке Close Modal внутри модалки
@@ -46,9 +24,30 @@ languages_btn.addEventListener("click", () => {
 
 closeModal1.addEventListener("click", () => {
     modal2.close();
-});
+});*/
 
+/* help-search */
+const inputSearch = document.querySelector('.input-search');
+const searchMenu = document.querySelector('.search-menu');
 
+/* вкл/выкл выпадающего списка */
+inputSearch.addEventListener('click', () => {
+    searchMenu.classList.add('search-show');
+})
 
+// закрытие выпадающего списка по клику на пункты меню
+const searchArticles = document.querySelectorAll('.search-menu__items');
+searchArticles.forEach(item => {
+    item.addEventListener('click', () => {
+        searchMenu.classList.remove('search-show');
+    })
+})
+
+/* кли вне пунктов меню */
+document.addEventListener('click', (event) => {
+    if (!event.target.closest('.search-menu') && !event.target.closest('.input-search')) {
+        searchMenu.classList.remove('search-show');
+    }
+})
 
 
