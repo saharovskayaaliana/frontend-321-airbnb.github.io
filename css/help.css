@@ -1,5 +1,5 @@
 .help {
-    padding-top: 24px;
+    padding-top: 40px;
 }
 
 .help-search {
@@ -113,3 +113,93 @@ input[type="search"]::-webkit-search-cancel-button {
 /*.search-menu a:hover {
     background-color: var(--bg-hover);
 }*/
+/*help-page-with-details*/
+.help-title {
+    margin-bottom: 55px;
+}
+
+.help-page-with-details {
+    margin-bottom: 52px;
+}
+
+.detail-page {
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.detail-page-border {
+    display: block;
+    margin-bottom: 35px;
+}
+
+.detail-page-log {
+    border: 1px solid #dddddd;
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    color: #222222;
+}
+
+.detail-page-title h1 {
+    margin-bottom: 8px;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.detail-page-title p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400px;
+}
+
+.detail-page-a {
+    margin-left: 24px;
+    align-self: center;
+    width: 400px;
+    display: block;
+}
+
+.detail-page-a a {
+    display: block;
+    position: relative;
+    pointer-events: none;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.help-cards {
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.help-cards h2 {
+    flex-grow: 1;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #222222;
+}
+
+.help-cards a {
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #222222;
+    display: flex;
+    justify-content: flex-end;
+    white-space: nowrap;
+}
+
+.help-card-subtitle {
+    color: #222222;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    width: 100%;
+}
