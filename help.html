@@ -225,11 +225,40 @@
                 <h1 class="help-title">Help Page</h1>
 
                 <div class="help-page-with-details">
-                    <div class="detail-page">
-                        <button class="btn">Guest</button>
-                        <button class="btn">Host</button>
-                        <button class="btn">Experience Host</button>
-                        <button class="btn">Travel admin</button>
+                    <div class="tabs">
+                        <div class="tabs-list">
+                            <button class="tabs-btn tabs-btn__active" data-tabs-path="movies">Guest</button>
+                            <button class="tabs-btn" data-tabs-path="shows">Host</button>
+                            <button class="tabs-btn" data-tabs-path="example">Experience Host</button>
+                            <!--<button class="btn tabs_btn">Travel admin</button>-->
+                        </div>
+                        <div class="tabs-content tabs-content__active" data-tabs-target="movies">
+                            <div class="content">
+                                <h2>Button1</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus accusantium
+                                    voluptate autem, numquam impedit perspiciatis unde commodi ullam totam ut nemo
+                                    incidunt, sit doloribus ipsa rem repellat at neque? Repellat.</p>
+                            </div>
+                        </div>
+
+                        <div class="tabs-content" data-tabs-target="shows">
+                            <div class="content">
+                                <h2>Button2</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus accusantium
+                                    voluptate autem, numquam impedit perspiciatis unde commodi ullam totam ut nemo
+                                    incidunt, sit doloribus ipsa rem repellat at neque? Repellat.</p>
+                            </div>
+                        </div>
+
+                        <div class="tabs-content" data-tabs-target="example">
+                            <div class="content">
+                                <h2>Button3</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus accusantium
+                                    voluptate autem, numquam impedit perspiciatis unde commodi ullam totam ut nemo
+                                    incidunt, sit doloribus ipsa rem repellat at neque? Repellat.</p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 <div class="detail-page-border">
