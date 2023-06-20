@@ -72,4 +72,38 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 })
 
+/*fetch data*/
+function fetchData() {
+    fetch('../data.json')
+        .then(res => res.json())
+        .then(data => console.log(`data`, data))
+}
+function renderData() {
+    const products = fetchData();
+    console.log(`products`, products);
+
+    results.forEach(product => {
+        const div = document.createElement('div');//создаёт div
+
+        div.classList.add('card-wrapper');
+        div.innerHTML = `
+        <a class="card-link" href="#" target="_blank" rel="noopener noreferrer nofollow"></a>
+        <div class="card">
+          <div class="card-image">
+            <img src="${product.imgSrc}" alt="image">
+          </div>
+
+            <div class="card-text_descr text-secondary">${product.rating}</div>
+            <div class="card-text_config text-secondary">${product.name}</div>
+            <div class="card-text_date text-secondary">${product.price}</div>
+          </div>
+        `
+
+        document.querySelector('.products-wrapper').appendChild(div);
+    })
+}
+
+
+document.addEventListener('DOMContentLoaded', renderData);
+
 
