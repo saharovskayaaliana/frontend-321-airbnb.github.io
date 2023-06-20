@@ -171,6 +171,7 @@ input[type="search"]::-webkit-search-cancel-button {
     font-weight: 600;
 }
 
+/*
 .help-cards {
     margin-bottom: 32px;
     display: flex;
@@ -202,4 +203,19 @@ input[type="search"]::-webkit-search-cancel-button {
     line-height: 22px;
     font-weight: 600;
     width: 100%;
+}
+*/
+
+/*products-wrapper*/
+.products-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-wrapper {
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-flex;
+    width: 313px;
 }
