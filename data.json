@@ -6,7 +6,7 @@
         "rating": "4.9",
         "price": "50.2",
         "description": "Accessible environment",
-        "imgSrc": "images/help-image-1.jpg"
+        "imgSrc": "images/hepl-cards/help-image-1.jpg"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "rating": "3.0",
         "price": "102.10",
         "description": "Cancellation during the pandemic",
-        "imgSrc": "images/help-image-2.jpg"
+        "imgSrc": "images/hepl-cards/help-image-2.jpg"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "rating": "4.9",
         "price": "15",
         "description": "Airbnb's actions during the pandemic",
-        "imgSrc": "images/help-image-3.jpg"
+        "imgSrc": "images/hepl-cards/help-image-3.jpg"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "rating": "2.3",
         "price": "23.75",
         "description": "Report a problem in the area",
-        "imgSrc": "images/help-image-4.jpg"
+        "imgSrc": "images/hepl-cards/help-image-4.png"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "rating": "4.9",
         "price": "50.00",
         "description": "Airbnb's actions during the pandemic",
-        "imgSrc": "images/help-image-5.jpg"
+        "imgSrc": "images/hepl-cards/help-image-5.jpg"
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "rating": "4.9",
         "price": "200.50",
         "description": "Report a problem in the area",
-        "imgSrc": "images/help-image-6.jpg"
+        "imgSrc": "images/hepl-cards/help-image-9.jpg"
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "rating": "4.9",
         "price": "5.50",
         "description": "Airbnb's actions during the pandemic",
-        "imgSrc": "images/help-image-7.jpg"
+        "imgSrc": "images/hepl-cards/help-image-7.jpg"
     },
     {
         "id": 8,
@@ -69,6 +69,6 @@
         "rating": "4.9",
         "price": "25.00",
         "description": "Accessible environment",
-        "imgSrc": "images/help-image-8.jpg"
+        "imgSrc": "images/hepl-cards/help-image-8.jpg"
     }
 ]
