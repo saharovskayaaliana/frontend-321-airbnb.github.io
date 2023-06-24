@@ -1,11 +1,11 @@
-/* skeletons */
+/* skeletons 
 const allSkeletons = document.querySelectorAll('.skeleton');
 
 window.addEventListener('load', () => {
     allSkeletons.forEach(element => {
         element.classList.remove('skeleton');
     })
-})
+})*/
 
 /*dropdown*/
 const dropDownButton = document.querySelector('.dropdown-button');
@@ -121,14 +121,13 @@ const renderData = async () => {
                 div.classList.add('swiper-slide');
 
                 div.innerHTML = `
-            <a class="card-link" href="help-details.html?id=${product.id}" target="_blank" rel="noopener noreferrer nofollow"></a>
+            <a class="card-link" href="help-details.html?id=${product?.id}" target="_blank" rel="noopener noreferrer nofollow"></a>
             <div class="card">
               <div class="card-image">
-                <img src="${product.imgSrc}" alt="image">
+                <img src="${product?.imgSrc}" alt="image">
               </div>
-              <div class="card-text__descr text-secondary">${product.rating}</div>
-              <div class="card-text__config text-secondary">${product.name}</div>
-              <div class="card-text__date text-secondary">${product.price}</div>
+              <h3 class="card-text__name">${product?.name}</h3>
+              <p class="card-text__description">${product?.description}</p>
             </div>
           `;
 
