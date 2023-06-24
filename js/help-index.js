@@ -126,7 +126,6 @@ const renderData = async () => {
               <div class="card-image">
                 <img src="${product?.imgSrc}" alt="image">
               </div>
-              <h3 class="card-text__name">${product?.name}</h3>
               <p class="card-text__description">${product?.description}</p>
             </div>
           `;

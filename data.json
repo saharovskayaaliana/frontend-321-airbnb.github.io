@@ -5,7 +5,7 @@
         "category": "Chair",
         "rating": "4.9",
         "price": "50.2",
-        "description": "Accessible environment",
+        "description": "Getting started on Airbnb",
         "imgSrc": "images/hepl-cards/help-image-1.jpg"
     },
     {
@@ -14,7 +14,7 @@
         "category": "Bed",
         "rating": "3.0",
         "price": "102.10",
-        "description": "Cancellation during the pandemic",
+        "description": "Accessing your account",
         "imgSrc": "images/hepl-cards/help-image-2.jpg"
     },
     {
@@ -23,7 +23,7 @@
         "category": "Bench",
         "rating": "4.9",
         "price": "15",
-        "description": "Airbnb's actions during the pandemic",
+        "description": "Help with a reservation",
         "imgSrc": "images/hepl-cards/help-image-3.jpg"
     },
     {
@@ -32,7 +32,7 @@
         "category": "Bed",
         "rating": "2.3",
         "price": "23.75",
-        "description": "Report a problem in the area",
+        "description": "Getting protected through AirCover",
         "imgSrc": "images/hepl-cards/help-image-4.png"
     },
     {
@@ -41,7 +41,7 @@
         "category": "Cabinet",
         "rating": "4.9",
         "price": "50.00",
-        "description": "Airbnb's actions during the pandemic",
+        "description": "Getting paid",
         "imgSrc": "images/hepl-cards/help-image-5.jpg"
     },
     {
@@ -50,7 +50,7 @@
         "category": "Table",
         "rating": "4.9",
         "price": "200.50",
-        "description": "Report a problem in the area",
+        "description": "Help with hosting",
         "imgSrc": "images/hepl-cards/help-image-9.jpg"
     },
     {
@@ -59,7 +59,7 @@
         "category": "Cushion",
         "rating": "4.9",
         "price": "5.50",
-        "description": "Airbnb's actions during the pandemic",
+        "description": "Changes and cancellations",
         "imgSrc": "images/hepl-cards/help-image-7.jpg"
     },
     {
@@ -68,7 +68,7 @@
         "category": "Desk",
         "rating": "4.9",
         "price": "25.00",
-        "description": "Accessible environment",
+        "description": "Managing your Experience",
         "imgSrc": "images/hepl-cards/help-image-8.jpg"
     }
 ]
