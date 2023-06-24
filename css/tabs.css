@@ -3,9 +3,9 @@
 }
 
 .tabs-list {
-    margin-bottom: 36px;
+    margin-bottom: 55px;
     background-color: #ebebeb;
-    border-radius: 50px;
+    border-radius: 8px;
     padding: 4px;
     display: inline-flex;
 }
@@ -16,7 +16,7 @@
     cursor: pointer;
     background-color: #0000;
     border: 2px solid #0000;
-    border-radius: 500px;
+    border-radius: 8px;
     outline: none;
     padding: 6.5px 40px;
     font-size: 14px;
@@ -35,4 +35,12 @@
 
 .tabs-content__active {
     display: flex;
+}
+
+.card-text__description {
+    color: #222222;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    width: 100%;
 }
